@@ -1,11 +1,16 @@
 import './App.css';
 import React from 'react';
-import OtpLogin from './components/OtpLogin';
+import InputChip from './components/input';
+import Test from './components/test';
+import Button from './components/Button';
 
 function App() {
+	const title = 'AJit';
 	return (
 		<>
-			<OtpLogin />
+			<Test as="div">
+				<Button onClick={() => console.log('hey')} title={title} />
+			</Test>
 		</>
 	);
 }
