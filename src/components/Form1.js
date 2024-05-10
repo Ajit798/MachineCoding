@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function Form1({ handleChange, handleNext, form }) {
-	console.log('rerender', form);
 	return (
 		<div
 			style={{
