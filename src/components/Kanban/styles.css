@@ -1,0 +1,36 @@
+.input-box{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.input{
+    width: 50%;
+}
+
+.todo-container{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   align-items: center;
+}
+.main-container{
+display: flex;
+justify-content: center;
+gap: 20px;
+align-items: center;
+margin-top: 40px;
+}
+
+.drag-card{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    cursor: move;
+}
