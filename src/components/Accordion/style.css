@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+.accordion-div{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+border: 1px solid black;
+width: 80%;
+margin: 16px auto;
+justify-content: center;
+}
+
+.sub-accrodion{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.sub-accrodion >span {
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+.btn-submit{
+    padding: 5px 16px;
+    border-radius: 14px;
+    border: 1px solid gray;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
