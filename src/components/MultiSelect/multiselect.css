@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+}
+
+.main-container{
+    text-align: center;
+    height: 300px;
+}
+
+.input-container{
+   margin-top: 200px;
+   display: flex;
+   border: 1px solid black;
+   width: 57%;
+   margin: 0 auto;
+   margin-top: 200px;
+   border-radius: 10px;
+   border: none;
+   border: 0.5px solid gray;
+   margin-bottom: 9px;
+   height: fit-content;
+   padding: 8px 8px;
+   gap: 3px;
+   align-items: center;
+}
+
+.items-container{
+    border: 0.5px solid gray;
+    height: 180px;
+    width: 58%;
+    margin: 0 auto;
+    overflow: scroll;
+    border-radius: 10px;
+    text-align: start;
+}
+
+input{
+    height: 20px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    margin-left: 3px;
+}
+
+.items{
+    height: 35px;
+    font-size: 18px;
+    padding: 5px 9px;
+    cursor: pointer;
+}
+
+.items-container .items:hover{
+    background-color: #c9daf6;
+}
+
+.chip-container{
+    border: 0.5px solid gray;
+    width: fit-content;
+    height: 16px;
+    padding: 3px 5px;
+    margin-left: 12px;
+    border-radius: 6px;
+    background-color: rgb(230,230,230);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.chip-container img{
+    cursor: pointer;
+}
+
+.chips{
+    /* width: 50%; */
+    display: flex;
+    gap: 3px;
+    /* position: absolute; */
+    top: 10px;
+    left: 310px;
+    flex-wrap: wrap;
+}
+
+
+

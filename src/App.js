@@ -1,7 +1,7 @@
 import './App.css';
-import Otp from './components/OTP/Otp';
+import { Accordion } from './components/Accordion/Accordion';
 function App() {
-	return <Otp />;
+	return <Accordion />;
 }
 
 export default App;

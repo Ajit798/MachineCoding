@@ -1,0 +1,45 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+
+.main-container .box{
+    border: 1px solid black;
+    padding: 8px 16px;
+    background-color: lightgrey;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.toast-container{
+border: 1px solid gray;
+height: 40px;
+width: 300px;
+text-align: center;
+padding: 8px;
+animation-name: slide;
+animation-duration: 5s;
+animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+/* animation-delay: 1000ms; */
+animation-fill-mode: forwards;
+color: white;
+border-radius: 14px;
+margin-bottom: 20px;
+}
+
+
+@keyframes slide {
+    0%{
+       opacity: 0; 
+       transform: translateX(-200px);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(50px);
+    }
+}
