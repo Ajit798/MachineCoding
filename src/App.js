@@ -1,7 +1,7 @@
 import './App.css';
-import { Accordion } from './components/Accordion/Accordion';
+import { AvatarPicker } from './components/AvatarPicker/AvatarPicker';
 function App() {
-	return <Accordion />;
+	return <AvatarPicker />;
 }
 
 export default App;
