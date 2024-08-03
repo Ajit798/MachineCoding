@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+.box{
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button-container button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 12px;
+    border: 1px solid gray;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.button-container button:nth-child(1){
+    background-color: green;
+    color: white;
+}
+
+.list-item{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.item-color{
+    background-color: orange;
+}

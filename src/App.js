@@ -1,7 +1,7 @@
 import './App.css';
-import { AvatarPicker } from './components/AvatarPicker/AvatarPicker';
+import { TransferList } from './components/TransferList/TransferList';
 function App() {
-	return <AvatarPicker />;
+	return <TransferList />;
 }
 
 export default App;
