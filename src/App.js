@@ -1,7 +1,7 @@
 import './App.css';
-import { TransferList } from './components/TransferList/TransferList';
+import { CountDownTimer } from './components/CountDownTimer';
 function App() {
-	return <TransferList />;
+	return <CountDownTimer />;
 }
 
 export default App;
