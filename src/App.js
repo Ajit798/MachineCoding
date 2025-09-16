@@ -1,7 +1,7 @@
-import './App.css';
-import { CountDownTimer } from './components/CountDownTimer';
+import "./App.css";
+import CinemaBooking from "./components/CinemaBookingSystem/CinemaBooking.tsx";
 function App() {
-	return <CountDownTimer />;
+  return <CinemaBooking />;
 }
 
 export default App;
